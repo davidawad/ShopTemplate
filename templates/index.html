@@ -1,0 +1,141 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Shop Template</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='stylesheet.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='foundation.css') }}">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='mfglabs_iconset.css') }}">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="parallax-background">
+  <div class="intro-text">
+    <span style="font-family:Cookie ; font-size:3em">ChopShop!</span>
+
+  <p>
+    <i class="fa fa-arrow-down fa-3x"></i>
+  </p>
+
+  </div>
+</div>
+
+
+<div class="parallax-content">
+
+
+<br>
+<br>
+
+<div class="row">
+<div class="testimonial-wrap">
+	<div class="row">
+		<div class="small-1 large-1 columns testimonial">
+			<div class="quote-marks">&#8220;</div>
+		</div>
+		<div class="small-11 large-11 columns testimonial">
+			<div class="quote">
+				<p style="color:#888">This resource has changed my life. I don't know if I could go on if I didn't have this in my life. My thanks to the developers and their families. </p>
+			</div>
+			<div class="student">
+				<!-- <div class="photo"> </div> -->
+				<p><span style="font-family:Cookie;font-size:2em">Benjamin Noland</span><span style="color:#888"> Math Guy</span></p>
+			</div>
+		</div>
+
+	</div>
+	</div>
+</div>
+
+<div class="row">
+    <div class="large-4 columns">
+      <div class="item-wrapper">
+        <div class="img-wrapper">
+          <a class="button expand add-to-cart">Add to Cart</a>
+          <a href="#"><img src="http://i.imgur.com/Mcw06Yt.png"></a>
+        </div>
+        <a href="#"><h3>Kickin with Kraken Tee</h3></a>
+        <h5>$19.99</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div class="item-wrapper">
+        <div class="img-wrapper">
+          <a class="button expand add-to-cart">Add to Cart</a>
+          <a href="#"><img src="http://i.imgur.com/Mcw06Yt.png"></a>
+        </div>
+        <a href="#"><h3>Kickin with Kraken Tee</h3></a>
+        <h5>$19.99</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div class="item-wrapper">
+        <div class="img-wrapper">
+          <a class="button expand add-to-cart">Add to Cart</a>
+          <a href="#"><img src="http://i.imgur.com/Mcw06Yt.png"></a>
+        </div>
+        <a href="#"><h3>Kickin with Kraken Tee</h3></a>
+        <h5>$19.99</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem enim, accumsan convallis risus semper.</p>
+      </div>
+    </div>
+
+
+</div>
+
+<!-- closer for pricing table -->
+
+<br>
+<br>
+
+
+<br>
+<br>
+
+<div class="row text-center">
+<h1 style="font-family:Cookie ; font-size:2em ; text-align:center"> &#8220; Contribute to the world's fastest growing Basil resource &#8221; </h1>
+
+<form action='/submit' method='post'>
+  <label>Your Name</label>
+  <input name='name' type='text' placeholder="e.g. Basil Ahmad"></input>
+  <label>Your Nick-Name For Basil</label>
+  <input name='message' type='text' placeholder="Razzle Dazzle Basil"></input>
+
+  <input type='submit' class="success large radius button"></input>
+</form>
+</div>
+
+<hr>
+<br>
+<br>
+<div class="row text-center">
+<div class="large-12 columns">
+<h1 style="font-family:Cookie ; font-size:2em ; text-align:center"> &#8220; Share Basil with a friend... &#8221; </h1>
+<form action='/email' method='post'>
+<label for='email'>Email</label>
+<input name='email' type='text' placeholder="e.g. John.doe@example.com"></input>
+</form>
+
+</div>
+</div>
+
+<div class="row text-center">
+<br>
+<br>
+<p style="font-family:cookie;font-size:2em"><span style="color:#888">Website by</span><a href="http://davidawad.github.io"> David Awad</a></p>
+
+</div>
+
+</div>    <!-- closer for parallax content -->
+</body>
+</html>
